@@ -14,7 +14,7 @@ function rotear($uri, $rotas) {
     if (array_key_exists($uri, $rotas)) {
         include __DIR__ . $rotas[$uri];
     } else {
-        echo "$uri é uma página inexistente";
+        echo "$uri" . " é uma página inexistente";
     }
 }
 ?>
